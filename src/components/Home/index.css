@@ -1,0 +1,140 @@
+.background {
+  background-color: #223a5f;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card {
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  margin-top: 30px;
+}
+.score-card {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  border-radius: 10px;
+  color: #000000;
+  font-size: 30px;
+  font-weight: 700;
+}
+.game-images {
+  width: 200px;
+  height: 200px;
+}
+.gaming-container {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.first-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.last {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rules-container {
+  width: 60vw;
+  height: 70vh;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.rules-image {
+  width: 80%;
+  height: 80%;
+}
+.popup-close-button {
+  align-self: flex-end;
+  padding-right: 20px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.rules-button {
+  background-color: #fff;
+  color: #000000;
+  padding: 10px;
+  align-self: flex-end;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: end;
+}
+.rules-button-container {
+  width: 100vw;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 200px;
+  height: 20vh;
+}
+.score {
+  font-family: 'Roboto';
+}
+.game-buttons {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.result-view-container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  color: #fff;
+  font-weight: 600;
+  font-size: 30px;
+}
+.first-two-images-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.result-images {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.play-again-button {
+  background-color: #fff;
+  color: #000000;
+  padding: 10px;
+  align-self: flex-end;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: end;
+}
+.result-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 300px;
+}
